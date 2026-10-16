@@ -338,8 +338,6 @@ const Home = () => {
 
   return (
     <div className="bg-[#090d16] text-slate-100 antialiased min-h-screen flex flex-col">
-      
-
       {/* HERO */}
       <section className="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-indigo-600/10 rounded-full blur-[140px] pointer-events-none" />
@@ -847,10 +845,10 @@ const Home = () => {
                     </div>
 
                     <a
-                      href="mailto:dhruv@dhruvsharma.dev"
+                      href="mailto:support@bookingsservice.com"
                       className="text-xs font-semibold text-white hover:text-indigo-400"
                     >
-                      dhruv@dhruvsharma.dev
+                      support@bookingsservice.com
                     </a>
                   </div>
                 </div>
@@ -1011,8 +1009,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-     
 
       {/* BOOKING MODAL */}
       {bookingOpen && (
