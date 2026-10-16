@@ -10,7 +10,6 @@ const Header = () => {
       {/* TOP BAR */}
       <div className="bg-gradient-to-r from-indigo-900/60 via-purple-900/60 to-slate-900 border-b border-indigo-500/20 text-slate-300 text-xs py-2 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
-
           <div className="flex items-center space-x-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
 
@@ -40,23 +39,17 @@ const Header = () => {
 
       {/* HEADER */}
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#090d16]/85 border-b border-slate-800/80">
-
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
           <div className="flex items-center justify-between h-20">
-
             {/* LOGO */}
-            <Link
-              to="/"
-              className="flex items-center space-x-3.5 group"
-            >
+            <Link to="/" className="flex items-center space-x-3.5 group">
               <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-emerald-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition-transform">
-                DS
+                BS
               </div>
 
               <div>
                 <span className="text-xl font-black tracking-tight text-white group-hover:text-indigo-400 transition-colors">
-                  Dhruv Sharma
+                  Bookings Service
                 </span>
 
                 <span className="block text-[11px] font-bold uppercase tracking-wider text-indigo-400">
@@ -67,7 +60,6 @@ const Header = () => {
 
             {/* DESKTOP NAV */}
             <nav className="hidden md:flex items-center space-x-8">
-
               <a
                 href="#services"
                 className="text-xs uppercase font-bold tracking-wider text-slate-300 hover:text-indigo-400 transition-colors"
@@ -102,12 +94,10 @@ const Header = () => {
               >
                 Contact
               </a>
-
             </nav>
 
             {/* RIGHT SIDE */}
             <div className="flex items-center space-x-4">
-
               {/* CALL BUTTON */}
               <a
                 href="tel:8444942133"
@@ -134,13 +124,8 @@ const Header = () => {
                 className="md:hidden p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800"
                 aria-label="Toggle Menu"
               >
-                <i
-                  className={`fa-solid ${
-                    mobileMenu ? "fa-xmark" : "fa-bars"
-                  } text-xl`}
-                />
+                <i className={`fa-solid ${mobileMenu ? 'fa-xmark' : 'fa-bars'} text-xl`} />
               </button>
-
             </div>
           </div>
         </div>
@@ -148,13 +133,12 @@ const Header = () => {
         {/* MOBILE MENU */}
         {mobileMenu && (
           <div className="md:hidden bg-slate-900/95 border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
-
             {[
-              ["#services", "Services"],
-              ["#estimator", "Cost Estimator"],
-              ["#portfolio", "Portfolio Work"],
-              ["#why-direct", "Why Direct Developer?"],
-              ["#contact", "Contact & Address"],
+              ['#services', 'Services'],
+              ['#estimator', 'Cost Estimator'],
+              ['#portfolio', 'Portfolio Work'],
+              ['#why-direct', 'Why Direct Developer?'],
+              ['#contact', 'Contact & Address'],
             ].map(([href, text]) => (
               <a
                 key={href}
@@ -167,7 +151,6 @@ const Header = () => {
             ))}
 
             <div className="pt-2 border-t border-slate-800">
-
               <a
                 href="tel:8444942133"
                 className="block w-full py-2.5 px-4 text-center rounded-xl bg-slate-800 text-xs font-bold text-slate-200"
@@ -175,7 +158,6 @@ const Header = () => {
                 <i className="fa-solid fa-phone mr-2 text-indigo-400" />
                 Toll-Free: 8444942133
               </a>
-
             </div>
           </div>
         )}
@@ -192,9 +174,7 @@ const Header = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl font-bold text-white">
-                Book a Call
-              </h2>
+              <h2 className="text-xl font-bold text-white">Book a Call</h2>
 
               <button
                 type="button"
@@ -206,7 +186,6 @@ const Header = () => {
             </div>
 
             <div className="space-y-4">
-
               <input
                 type="text"
                 placeholder="Your Name"
@@ -237,7 +216,6 @@ const Header = () => {
               >
                 Submit Request
               </button>
-
             </div>
           </div>
         </div>
