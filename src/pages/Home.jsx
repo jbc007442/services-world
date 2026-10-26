@@ -84,12 +84,12 @@ const projects = [
     tags: ['React', 'Tailwind CSS', 'REST API'],
     title: 'Nova Analytics Portal',
     description:
-      'Complete UI redesign and custom front-end development for a high-volume B2B analytics platform.',
+      'Complete UI design and custom front-end development for a high-volume B2B analytics platform.',
     category: 'B2B Web Application',
     result: '+140% Lead Conversion Rate',
     tech: 'React, Tailwind CSS, REST APIs',
     details:
-      'Redesigned the marketing presentation website and created an interactive demo portal. Reduced average page loading time from 3.8s to 0.7s.',
+      'Designed the marketing presentation website and created an interactive demo portal. Reduced average page loading time from 3.8s to 0.7s.',
   },
   {
     image:
